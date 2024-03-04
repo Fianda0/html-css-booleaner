@@ -8,7 +8,6 @@ body {
     margin: auto;
     border: 1px solid black;
     width: 50%;
-    height: 100vh;
 }
 
 header {
@@ -46,11 +45,29 @@ a {
 }
 
 #desc-foto {
-    font-size: 0.8em;
+    font-size: 0.9em;
     padding-bottom: 20px;
 }
 
 .testo {
-    font-size: 1.5em;
+    font-size: 1.1em;
+    font-weight: 600;
     padding-bottom: 20px;
+}
+
+#tabella {
+    width: 100%;
+}
+
+td {
+    width: 30%;
+}
+
+.pari {
+    background-color: lightblue;
+}
+
+thead {
+    background-color: #0000cc;
+    color: white;
 }
