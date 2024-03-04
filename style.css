@@ -1,10 +1,13 @@
 * {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body {
+    margin: auto;
     border: 1px solid black;
-    /* width: 50%; */
+    width: 50%;
     height: 100vh;
 }
 
@@ -15,10 +18,39 @@ header {
 #sfondo_logo {
     background-image: url('./img/pattern.png');
     background-size: contain;
+    height: 100px;
+    padding-top: 50px;
 
 }
 
 #logo {
     width: 20%;
+}
 
+h1 {
+    font-size: 2.2em;
+}
+
+.sottotitolo {
+    font-size: 1em;
+    font-weight: bold;
+    color: gray;
+}
+
+a {
+    color: rgb(0, 174, 255);
+}
+
+.tim {
+    height: 330px;
+}
+
+#desc-foto {
+    font-size: 0.8em;
+    padding-bottom: 20px;
+}
+
+.testo {
+    font-size: 1.5em;
+    padding-bottom: 20px;
 }
