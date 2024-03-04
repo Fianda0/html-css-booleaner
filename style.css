@@ -57,6 +57,7 @@ a {
 
 #tabella {
     width: 100%;
+    padding-bottom: 20px;
 }
 
 td {
@@ -71,3 +72,11 @@ thead {
     background-color: #0000cc;
     color: white;
 }
+
+#monitor {
+    background-image: url('img/monitor.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+ocontain
